@@ -87,20 +87,7 @@ Click Submit Feedback to send via EmailJS.
 
 Copy AI suggestions or replies using the copy buttons.
 
-File Structure
-bash
-Copy code
-easeform/
-├─ functions/           # Firebase functions (optional)
-├─ src/
-│  ├─ app/
-│  │  ├─ components/   # FeedbackForm.js and UI components
-│  │  ├─ firebase.js    # Firebase setup
-│  │  ├─ gemini.js      # AI API integration
-│  │  └─ page.js
-├─ package.json
-├─ firebase.json
-└─ README.md
+
 Contributing
 Contributions are welcome! Feel free to:
 
@@ -134,6 +121,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Screenshots
 
-<img width="2" height="4" alt="Screenshot 2025-09-07 225149" src="https://github.com/user-attachments/assets/95463837-0e7d-4ab5-ae4d-0d45c1671c1e" />
