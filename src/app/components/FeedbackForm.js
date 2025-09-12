@@ -162,7 +162,7 @@ export default function FeedbackForm() {
       console.log("EmailJS response:", response);
 
       // AI-style thank you message
-      const thankYou = `Thank you ${form.name} for your valuable feedback! We've received your message and will get back to you at ${form.email} soon.`;
+      const thankYou = `Thank you ${form.name} for visiting Easeform! We'll receive your message and will get back to you at ${form.email} soon with our suggestion.`;
       setAiReply(thankYou);
 
       // Reset form
@@ -547,7 +547,7 @@ export default function FeedbackForm() {
               ) : (
                 <>
                   <Send className="w-8 h-8" />
-                  Submit Feedback
+                  Submit 
                 </>
               )}
             </motion.button>
