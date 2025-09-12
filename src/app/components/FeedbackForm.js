@@ -2,17 +2,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, Loader2, Send, Wand2, MessageSquare, CheckCircle, AlertCircle, Copy, X } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
-// Mock EmailJS for demo - replace with actual import in your project
-const emailjs = {
-  send: async (serviceId, templateId, templateParams, publicKey) => {
-    console.log('EmailJS send called with:', { serviceId, templateId, templateParams, publicKey });
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    // Simulate success
-    return { status: 200, text: 'OK' };
-  }
-};
 
 export default function FeedbackForm() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
